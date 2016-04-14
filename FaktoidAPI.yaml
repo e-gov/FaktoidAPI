@@ -1,0 +1,50 @@
+
+swagger: '2.0'
+
+info:
+  version: "0.0.1"
+  title: FaktoidAPI
+  description: API lühikeste, potentsiaalselt mitmekeelsete faktide esitamiseks internetis. Kõik tulemused peavad olema UTF-8 kodeeringus.
+paths:
+  /faktoid:
+    get:
+      description: |
+        Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast
+      responses:
+        '200':
+          description: Kõik läks hästi 
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/faktoid'
+  /faktoid/{filter}:
+    get:
+      description: Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast rakendades seejuures filtrit. Filtri semantika on määratud kliendi poolt. Laastutabloo puhul on filtriks omavalitsusüksuse kood
+      responses:
+        '200':
+          description: Kõik läks hästi
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/faktoid'
+  /andmed:
+    get:
+      description: Tagastab JSON serialiseeringu kasutatavast andmehulgast. Kui päringud `/faktoid` URLidele tagastavad ühe juhusliku või filtreeritud päringu, siis siin tagastatakse terve andmehulk. Kui API maskeraadib madalama taseme APIt, on tulemus määratletud kui 'andmehulk, millele filtrit või juhuslikku valikut rakendatakse'. 
+      responses:
+        '200':
+          description: Kõik läks hästi
+          
+definitions:
+  faktoid:
+    type: object
+    properties:
+      keel:
+        type: string
+        description: Keele kolmetäheline kood ISO 639-2 alusel (https://en.wikipedia.org/wiki/ISO_639-2). Kood 'zxx' tähistab fakti, mille keel kas ei ole määratud või ei ole oluline.
+      tekst:
+        type: string
+        description: Faktoid ise. Fakti pikkus ei ole määratletud kuid klient võib tema jaoks liigi pikki fakte kas ignoreerida või lühendada
+
+          
+    
+    
