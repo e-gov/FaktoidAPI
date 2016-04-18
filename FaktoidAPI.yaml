@@ -2,24 +2,38 @@
 swagger: '2.0'
 
 info:
-  version: "0.0.1"
+  version: "0.0.2"
   title: FaktoidAPI
   description: API lühikeste, potentsiaalselt mitmekeelsete faktide esitamiseks internetis. Kõik tulemused peavad olema UTF-8 kodeeringus.
+  license:
+    name: MIT
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
 paths:
-  /faktoid:
-    get:
-      description: |
-        Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast
-      responses:
-        '200':
-          description: Kõik läks hästi 
-          schema:
-            type: array
-            items:
-              $ref: '#/definitions/faktoid'
   /faktoid/{filter}:
     get:
-      description: Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast rakendades seejuures filtrit. Filtri semantika on määratud kliendi poolt. Laastutabloo puhul on filtriks omavalitsusüksuse kood
+      description: Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast rakendades seejuures filtrit. Filtri semantika on määratud kliendi poolt. Laastutabloo puhul on filtriks omavalitsusüksuse EHAK kood
+      parameters:
+        - name: filter
+          in: path
+          description: Rakendatav filter
+          required: true
+          type: string
+          
+        - name: start
+          in: query
+          description: Alguskuupäev. Kui seatud, arvestatakse tulemuse leidmisel vaid kirjeid kas sama või hilisema kuupäevaga. 
+          type: string
+          format: date
+        - name: end
+          in: query
+          description: Lõpukuupäev. Kui seatud, arvestatakse tulemuse leidmisel vaid kirjeid kas sama või varasema kuupäevaga. 
+          type: string
+          format: date
       responses:
         '200':
           description: Kõik läks hästi
