@@ -27,10 +27,10 @@ var _ = Describe("RahvaService", func() {
 		
 		u, _ := url.Parse("/faktoid")
 		request, _ = http.NewRequest("GET", u.RequestURI(), nil)
-		
+		InitFakt(new(PopulationFakt))
 	})
 
-	Describe("Basic faktoid generation", func() {
+	Describe("Basic faktoid fetch", func() {
 		Context("Get a random fact", func() {
 
 			It("Should return 200", func() {
@@ -42,14 +42,32 @@ var _ = Describe("RahvaService", func() {
 				Expect(err).To(BeNil())
 							
 				f = new(Faktoid)
-							
 				err = json.Unmarshal(body, f)
 				Expect(err).To(BeNil())
 
 			})
 		})
 	})
+	
+	Describe("Filtered fakotid fetch", func(){
+		
+		Context("Get a random fact using EHAK code", func(){
+			It("Should return 200", func(){
+				var f *Faktoid
+				request, _ = http.NewRequest("GET", "/faktoid/0037", nil)
+				router.ServeHTTP(recorder, request)
+				Expect(recorder.Code).To(Equal(200))
 
-
+				body, err := ioutil.ReadAll(io.LimitReader(recorder.Body, bufferLength))
+				Expect(err).To(BeNil())
+				
+				f = new(Faktoid)
+				err = json.Unmarshal(body, f)
+				Expect(err).To(BeNil())
+			})
+		})
+		
+	})
+	
 })
 

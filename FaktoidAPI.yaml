@@ -21,13 +21,11 @@ paths:
         '200':
           description: Kõik läks hästi
           schema:
-            type: array
-            items:
-              $ref: '#/definitions/faktoid'
+            $ref: '#/definitions/faktoid'
 
   /faktoid/{filter}:
     get:
-      description: Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast rakendades seejuures filtrit. Filtri semantika on määratud kliendi poolt. Laastutabloo puhul on filtriks omavalitsusüksuse EHAK kood
+      description: Tagastab ühe juhusliku fakti liidese poolt maskeraaditud andmehulgast rakendades seejuures filtrit. Filtri semantika on määratud kliendi poolt. Laastutabloo puhul on filtriks omavalitsusüksuse EHAK kood. Kui fakte ei leitud, tagastatakse tühi järjend.
       parameters:
         - name: filter
           in: path
@@ -49,9 +47,7 @@ paths:
         '200':
           description: Kõik läks hästi
           schema:
-            type: array
-            items:
-              $ref: '#/definitions/faktoid'
+            $ref: '#/definitions/faktoid'
   /andmed:
     get:
       description: Tagastab JSON serialiseeringu kasutatavast andmehulgast. Kui päringud `/faktoid` URLidele tagastavad ühe juhusliku või filtreeritud päringu, siis siin tagastatakse terve andmehulk. Kui API maskeraadib madalama taseme APIt, on tulemus määratletud kui 'andmehulk, millele filtrit või juhuslikku valikut rakendatakse'. 

@@ -25,4 +25,11 @@ var routes = Routes{
 		"/faktoid",
 		GetFaktoid,
 	},
+	Route{
+		"faktoid",
+		"GET",
+		"/faktoid/{filter}",
+		GetFilteredFaktoid,
+	},
+	
 }

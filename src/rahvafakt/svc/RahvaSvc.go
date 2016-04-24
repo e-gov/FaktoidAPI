@@ -20,7 +20,7 @@ func main() {
 	flag.Parse()
 	
 	setupLogging(slog)
-	
+	InitFakt(new(PopulationFakt))
 	router := rahvafakt.NewRouter()
 	log.Infof("Starting a server on localhost:%d", *port)
 	log.Critical(http.ListenAndServe(fmt.Sprintf(":%d", *port), router))
