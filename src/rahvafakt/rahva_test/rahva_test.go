@@ -6,7 +6,6 @@ import (
 	. "github.com/onsi/gomega"
 	"net/http"
 	"net/http/httptest"
-	"net/url"
 	. "rahvafakt"
 	. "faktoid"
 	"io/ioutil"
@@ -25,8 +24,6 @@ var _ = Describe("RahvaService", func() {
 		recorder = httptest.NewRecorder()
 		router = NewRouter()
 		
-		u, _ := url.Parse("/faktoid")
-		request, _ = http.NewRequest("GET", u.RequestURI(), nil)
 		InitFakt(new(PopulationFakt))
 	})
 
@@ -35,6 +32,9 @@ var _ = Describe("RahvaService", func() {
 
 			It("Should return 200", func() {
 				var f *Faktoid
+		
+				request, _ = http.NewRequest("GET", "/faktoid", nil)
+
 				router.ServeHTTP(recorder, request)
 				Expect(recorder.Code).To(Equal(200))
 
@@ -69,5 +69,24 @@ var _ = Describe("RahvaService", func() {
 		
 	})
 	
+	Describe("Get the dataset", func(){
+		
+		Context("Get the entire dataset", func(){
+			It("Should return 200", func(){
+				var f map[string]interface{}
+
+				request, _ = http.NewRequest("GET", "/andmed", nil)
+				router.ServeHTTP(recorder, request)
+				Expect(recorder.Code).To(Equal(200))				
+
+				body, err := ioutil.ReadAll(io.LimitReader(recorder.Body, bufferLength))
+				Expect(err).To(BeNil())
+			
+				// There should be some arbitrary json available
+				err = json.Unmarshal(body, &f)
+				Expect(err).To(BeNil())	
+			})
+		})
+	})
 })
 

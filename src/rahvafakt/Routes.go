@@ -26,10 +26,16 @@ var routes = Routes{
 		GetFaktoid,
 	},
 	Route{
-		"faktoid",
+		"filteredfaktoid",
 		"GET",
 		"/faktoid/{filter}",
 		GetFilteredFaktoid,
+	},
+	Route{
+		"data",
+		"GET",
+		"/andmed",
+		GetData,
 	},
 	
 }
