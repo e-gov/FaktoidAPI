@@ -11,7 +11,7 @@ import (
 	
 )
 
-var log = logging.MustGetLogger("login")
+var log = logging.MustGetLogger("RahvaSvc")
 
 func main() {
 	var port = flag.Int("port", 8090, "Port to bind to on the localhost interface")
@@ -20,7 +20,8 @@ func main() {
 	flag.Parse()
 	
 	setupLogging(slog)
-	InitFakt(new(PopulationFakt))
+	// Instantiate a new PopulationFakt and set up the handlers with it  
+	rahvafakt.InitFakt(new(rahvafakt.PopulationFakt))
 	router := rahvafakt.NewRouter()
 	log.Infof("Starting a server on localhost:%d", *port)
 	log.Critical(http.ListenAndServe(fmt.Sprintf(":%d", *port), router))

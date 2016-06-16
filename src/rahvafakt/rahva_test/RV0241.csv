@@ -1,0 +1,1320 @@
+"RV0241: RAHVASTIK, 1. JAANUAR --- Aasta, Haldusüksus või asustusüksuse"
+"liik, Sugu ning Vanus"
+
+" "	" "	" "	"Kokku"
+"2016"
+" "	"Kogu Eesti"
+" "	" "	"Mehed ja naised"	1315944
+" "	" "	"Mehed"	616708
+" "	" "	"Naised"	699236
+" "	"Linnalised asulad"
+" "	" "	"Mehed ja naised"	901249
+" "	" "	"Mehed"	406268
+" "	" "	"Naised"	494981
+" "	"Maa-asulad"
+" "	" "	"Mehed ja naised"	413121
+" "	" "	"Mehed"	209681
+" "	" "	"Naised"	203440
+" "	"Linnad"
+" "	" "	"Mehed ja naised"	829344
+" "	" "	"Mehed"	373031
+" "	" "	"Naised"	456313
+" "	"Vallad"
+" "	" "	"Mehed ja naised"	485026
+" "	" "	"Mehed"	242918
+" "	" "	"Naised"	242108
+" "	"HARJU MAAKOND"
+" "	" "	"Mehed ja naised"	576265
+" "	" "	"Mehed"	264836
+" "	" "	"Naised"	311429
+" "	"Harju maakonna linnad"
+" "	" "	"Mehed ja naised"	460305
+" "	" "	"Mehed"	207050
+" "	" "	"Naised"	253255
+" "	"..Tallinn"
+" "	" "	"Mehed ja naised"	423420
+" "	" "	"Mehed"	189566
+" "	" "	"Naised"	233854
+" "	"....Haabersti linnaosa"
+" "	" "	"Mehed ja naised"	43029
+" "	" "	"Mehed"	19263
+" "	" "	"Naised"	23766
+" "	"....Kesklinna linnaosa"
+" "	" "	"Mehed ja naised"	55586
+" "	" "	"Mehed"	25198
+" "	" "	"Naised"	30388
+" "	"....Kristiine linnaosa"
+" "	" "	"Mehed ja naised"	31481
+" "	" "	"Mehed"	13917
+" "	" "	"Naised"	17564
+" "	"....Lasnamäe linnaosa"
+" "	" "	"Mehed ja naised"	114625
+" "	" "	"Mehed"	51182
+" "	" "	"Naised"	63443
+" "	"....Mustamäe linnaosa"
+" "	" "	"Mehed ja naised"	64929
+" "	" "	"Mehed"	28040
+" "	" "	"Naised"	36889
+" "	"....Nõmme linnaosa"
+" "	" "	"Mehed ja naised"	38525
+" "	" "	"Mehed"	17635
+" "	" "	"Naised"	20890
+" "	"....Pirita linnaosa"
+" "	" "	"Mehed ja naised"	17516
+" "	" "	"Mehed"	8227
+" "	" "	"Naised"	9289
+" "	"....Põhja-Tallinna linnaosa"
+" "	" "	"Mehed ja naised"	57396
+" "	" "	"Mehed"	25897
+" "	" "	"Naised"	31499
+" "	"..Keila linn"
+" "	" "	"Mehed ja naised"	9577
+" "	" "	"Mehed"	4397
+" "	" "	"Naised"	5180
+" "	"..Loksa linn"
+" "	" "	"Mehed ja naised"	2634
+" "	" "	"Mehed"	1292
+" "	" "	"Naised"	1342
+" "	"..Maardu linn"
+" "	" "	"Mehed ja naised"	15128
+" "	" "	"Mehed"	7257
+" "	" "	"Naised"	7871
+" "	"..Paldiski linn"
+" "	" "	"Mehed ja naised"	3767
+" "	" "	"Mehed"	1735
+" "	" "	"Naised"	2032
+" "	"..Saue linn"
+" "	" "	"Mehed ja naised"	5779
+" "	" "	"Mehed"	2803
+" "	" "	"Naised"	2976
+" "	"Harju maakonna vallad"
+" "	" "	"Mehed ja naised"	115960
+" "	" "	"Mehed"	57786
+" "	" "	"Naised"	58174
+" "	"..Aegviidu vald"
+" "	" "	"Mehed ja naised"	709
+" "	" "	"Mehed"	346
+" "	" "	"Naised"	363
+" "	"....Aegviidu alev"
+" "	" "	"Mehed ja naised"	709
+" "	" "	"Mehed"	346
+" "	" "	"Naised"	363
+" "	"..Anija vald"
+" "	" "	"Mehed ja naised"	5474
+" "	" "	"Mehed"	2685
+" "	" "	"Naised"	2789
+" "	"....Kehra linn (vallasisene)"
+" "	" "	"Mehed ja naised"	2615
+" "	" "	"Mehed"	1217
+" "	" "	"Naised"	1398
+" "	"..Harku vald"
+" "	" "	"Mehed ja naised"	13456
+" "	" "	"Mehed"	6704
+" "	" "	"Naised"	6752
+" "	"..Jõelähtme vald"
+" "	" "	"Mehed ja naised"	6095
+" "	" "	"Mehed"	3135
+" "	" "	"Naised"	2960
+" "	"..Keila vald"
+" "	" "	"Mehed ja naised"	4681
+" "	" "	"Mehed"	2295
+" "	" "	"Naised"	2386
+" "	"..Kernu vald"
+" "	" "	"Mehed ja naised"	1990
+" "	" "	"Mehed"	1043
+" "	" "	"Naised"	947
+" "	"..Kiili vald"
+" "	" "	"Mehed ja naised"	4945
+" "	" "	"Mehed"	2537
+" "	" "	"Naised"	2408
+" "	"....Kiili alev"
+" "	" "	"Mehed ja naised"	1491
+" "	" "	"Mehed"	735
+" "	" "	"Naised"	756
+" "	"..Kose vald"
+" "	" "	"Mehed ja naised"	7066
+" "	" "	"Mehed"	3478
+" "	" "	"Naised"	3588
+" "	"..Kuusalu vald"
+" "	" "	"Mehed ja naised"	6496
+" "	" "	"Mehed"	3277
+" "	" "	"Naised"	3219
+" "	"..Kõue vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Nissi vald"
+" "	" "	"Mehed ja naised"	2832
+" "	" "	"Mehed"	1371
+" "	" "	"Naised"	1461
+" "	"..Padise vald"
+" "	" "	"Mehed ja naised"	1713
+" "	" "	"Mehed"	901
+" "	" "	"Naised"	812
+" "	"..Raasiku vald"
+" "	" "	"Mehed ja naised"	4625
+" "	" "	"Mehed"	2288
+" "	" "	"Naised"	2337
+" "	"..Rae vald"
+" "	" "	"Mehed ja naised"	15794
+" "	" "	"Mehed"	7907
+" "	" "	"Naised"	7887
+" "	"..Saku vald"
+" "	" "	"Mehed ja naised"	9276
+" "	" "	"Mehed"	4627
+" "	" "	"Naised"	4649
+" "	"..Saue vald"
+" "	" "	"Mehed ja naised"	10301
+" "	" "	"Mehed"	5153
+" "	" "	"Naised"	5148
+" "	"..Vasalemma vald"
+" "	" "	"Mehed ja naised"	2466
+" "	" "	"Mehed"	1197
+" "	" "	"Naised"	1269
+" "	"..Viimsi vald"
+" "	" "	"Mehed ja naised"	18041
+" "	" "	"Mehed"	8842
+" "	" "	"Naised"	9199
+" "	"HIIU MAAKOND"
+" "	" "	"Mehed ja naised"	9348
+" "	" "	"Mehed"	4729
+" "	" "	"Naised"	4619
+" "	"Hiiu maakonna linnad"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Kärdla linn*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"Hiiu maakonna vallad"
+" "	" "	"Mehed ja naised"	9348
+" "	" "	"Mehed"	4729
+" "	" "	"Naised"	4619
+" "	"..Emmaste vald"
+" "	" "	"Mehed ja naised"	1200
+" "	" "	"Mehed"	647
+" "	" "	"Naised"	553
+" "	"..Hiiu vald"
+" "	" "	"Mehed ja naised"	4544
+" "	" "	"Mehed"	2198
+" "	" "	"Naised"	2346
+" "	"....Kärdla linn (vallasisene)"
+" "	" "	"Mehed ja naised"	3300
+" "	" "	"Mehed"	1525
+" "	" "	"Naised"	1775
+" "	"..Kõrgessaare vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Käina vald"
+" "	" "	"Mehed ja naised"	2074
+" "	" "	"Mehed"	1067
+" "	" "	"Naised"	1007
+" "	"..Pühalepa vald"
+" "	" "	"Mehed ja naised"	1530
+" "	" "	"Mehed"	817
+" "	" "	"Naised"	713
+" "	"IDA-VIRU MAAKOND"
+" "	" "	"Mehed ja naised"	146506
+" "	" "	"Mehed"	67352
+" "	" "	"Naised"	79154
+" "	"Ida-Viru maakonna linnad"
+" "	" "	"Mehed ja naised"	115866
+" "	" "	"Mehed"	52514
+" "	" "	"Naised"	63352
+" "	"..Kiviõli linn"
+" "	" "	"Mehed ja naised"	5429
+" "	" "	"Mehed"	2461
+" "	" "	"Naised"	2968
+" "	"..Kohtla-Järve linn"
+" "	" "	"Mehed ja naised"	35928
+" "	" "	"Mehed"	16238
+" "	" "	"Naised"	19690
+" "	"....Ahtme linnaosa"
+" "	" "	"Mehed ja naised"	16222
+" "	" "	"Mehed"	7256
+" "	" "	"Naised"	8966
+" "	"....Järve linnaosa"
+" "	" "	"Mehed ja naised"	15869
+" "	" "	"Mehed"	6934
+" "	" "	"Naised"	8935
+" "	"....Kukruse linnaosa"
+" "	" "	"Mehed ja naised"	550
+" "	" "	"Mehed"	273
+" "	" "	"Naised"	277
+" "	"....Oru linnaosa"
+" "	" "	"Mehed ja naised"	1133
+" "	" "	"Mehed"	521
+" "	" "	"Naised"	612
+" "	"....Sompa linnaosa"
+" "	" "	"Mehed ja naised"	873
+" "	" "	"Mehed"	418
+" "	" "	"Naised"	455
+" "	"....Viivikonna linnaosa"
+" "	" "	"Mehed ja naised"	126
+" "	" "	"Mehed"	64
+" "	" "	"Naised"	62
+" "	"..Narva linn"
+" "	" "	"Mehed ja naised"	58204
+" "	" "	"Mehed"	26332
+" "	" "	"Naised"	31872
+" "	"..Narva-Jõesuu linn"
+" "	" "	"Mehed ja naised"	2619
+" "	" "	"Mehed"	1265
+" "	" "	"Naised"	1354
+" "	"..Püssi linn*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Sillamäe linn"
+" "	" "	"Mehed ja naised"	13686
+" "	" "	"Mehed"	6218
+" "	" "	"Naised"	7468
+" "	"Ida-Viru maakonna vallad"
+" "	" "	"Mehed ja naised"	30640
+" "	" "	"Mehed"	14838
+" "	" "	"Naised"	15802
+" "	"..Alajõe vald"
+" "	" "	"Mehed ja naised"	581
+" "	" "	"Mehed"	344
+" "	" "	"Naised"	237
+" "	"..Aseri vald"
+" "	" "	"Mehed ja naised"	1598
+" "	" "	"Mehed"	777
+" "	" "	"Naised"	821
+" "	"..Avinurme vald"
+" "	" "	"Mehed ja naised"	1267
+" "	" "	"Mehed"	616
+" "	" "	"Naised"	651
+" "	"..Iisaku vald"
+" "	" "	"Mehed ja naised"	1213
+" "	" "	"Mehed"	637
+" "	" "	"Naised"	576
+" "	"..Illuka vald"
+" "	" "	"Mehed ja naised"	1000
+" "	" "	"Mehed"	461
+" "	" "	"Naised"	539
+" "	"..Jõhvi vald"
+" "	" "	"Mehed ja naised"	11786
+" "	" "	"Mehed"	5409
+" "	" "	"Naised"	6377
+" "	"....Jõhvi linn (vallasisene)"
+" "	" "	"Mehed ja naised"	10152
+" "	" "	"Mehed"	4552
+" "	" "	"Naised"	5600
+" "	"..Kohtla vald"
+" "	" "	"Mehed ja naised"	1554
+" "	" "	"Mehed"	778
+" "	" "	"Naised"	776
+" "	"..Kohtla-Nõmme vald"
+" "	" "	"Mehed ja naised"	998
+" "	" "	"Mehed"	491
+" "	" "	"Naised"	507
+" "	"....Kohtla-Nõmme alev"
+" "	" "	"Mehed ja naised"	998
+" "	" "	"Mehed"	491
+" "	" "	"Naised"	507
+" "	"..Lohusuu vald"
+" "	" "	"Mehed ja naised"	707
+" "	" "	"Mehed"	365
+" "	" "	"Naised"	342
+" "	"..Lüganuse vald"
+" "	" "	"Mehed ja naised"	2945
+" "	" "	"Mehed"	1458
+" "	" "	"Naised"	1487
+" "	"....Püssi linn (vallasisene)"
+" "	" "	"Mehed ja naised"	964
+" "	" "	"Mehed"	455
+" "	" "	"Naised"	509
+" "	"..Maidla vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Mäetaguse vald"
+" "	" "	"Mehed ja naised"	1748
+" "	" "	"Mehed"	859
+" "	" "	"Naised"	889
+" "	"..Sonda vald"
+" "	" "	"Mehed ja naised"	844
+" "	" "	"Mehed"	434
+" "	" "	"Naised"	410
+" "	"..Toila vald"
+" "	" "	"Mehed ja naised"	2267
+" "	" "	"Mehed"	1115
+" "	" "	"Naised"	1152
+" "	"..Tudulinna vald"
+" "	" "	"Mehed ja naised"	432
+" "	" "	"Mehed"	217
+" "	" "	"Naised"	215
+" "	"..Vaivara vald"
+" "	" "	"Mehed ja naised"	1700
+" "	" "	"Mehed"	877
+" "	" "	"Naised"	823
+" "	"JÕGEVA MAAKOND"
+" "	" "	"Mehed ja naised"	31298
+" "	" "	"Mehed"	15235
+" "	" "	"Naised"	16063
+" "	"Jõgeva maakonna linnad"
+" "	" "	"Mehed ja naised"	10829
+" "	" "	"Mehed"	4938
+" "	" "	"Naised"	5891
+" "	"..Jõgeva linn"
+" "	" "	"Mehed ja naised"	5340
+" "	" "	"Mehed"	2408
+" "	" "	"Naised"	2932
+" "	"..Mustvee linn"
+" "	" "	"Mehed ja naised"	1315
+" "	" "	"Mehed"	638
+" "	" "	"Naised"	677
+" "	"..Põltsamaa linn"
+" "	" "	"Mehed ja naised"	4174
+" "	" "	"Mehed"	1892
+" "	" "	"Naised"	2282
+" "	"Jõgeva maakonna vallad"
+" "	" "	"Mehed ja naised"	20469
+" "	" "	"Mehed"	10297
+" "	" "	"Naised"	10172
+" "	"..Jõgeva vald"
+" "	" "	"Mehed ja naised"	4344
+" "	" "	"Mehed"	2168
+" "	" "	"Naised"	2176
+" "	"..Kasepää vald"
+" "	" "	"Mehed ja naised"	1187
+" "	" "	"Mehed"	587
+" "	" "	"Naised"	600
+" "	"..Pajusi vald"
+" "	" "	"Mehed ja naised"	1285
+" "	" "	"Mehed"	677
+" "	" "	"Naised"	608
+" "	"..Pala vald"
+" "	" "	"Mehed ja naised"	1096
+" "	" "	"Mehed"	566
+" "	" "	"Naised"	530
+" "	"..Palamuse vald"
+" "	" "	"Mehed ja naised"	2130
+" "	" "	"Mehed"	1064
+" "	" "	"Naised"	1066
+" "	"..Puurmani vald"
+" "	" "	"Mehed ja naised"	1509
+" "	" "	"Mehed"	734
+" "	" "	"Naised"	775
+" "	"..Põltsamaa vald"
+" "	" "	"Mehed ja naised"	3650
+" "	" "	"Mehed"	1823
+" "	" "	"Naised"	1827
+" "	"..Saare vald"
+" "	" "	"Mehed ja naised"	1116
+" "	" "	"Mehed"	594
+" "	" "	"Naised"	522
+" "	"..Tabivere vald"
+" "	" "	"Mehed ja naised"	2198
+" "	" "	"Mehed"	1119
+" "	" "	"Naised"	1079
+" "	"..Torma vald"
+" "	" "	"Mehed ja naised"	1954
+" "	" "	"Mehed"	965
+" "	" "	"Naised"	989
+" "	"JÄRVA MAAKOND"
+" "	" "	"Mehed ja naised"	30709
+" "	" "	"Mehed"	14950
+" "	" "	"Naised"	15759
+" "	"Järva maakonna linnad"
+" "	" "	"Mehed ja naised"	8127
+" "	" "	"Mehed"	3669
+" "	" "	"Naised"	4458
+" "	"..Paide linn"
+" "	" "	"Mehed ja naised"	8127
+" "	" "	"Mehed"	3669
+" "	" "	"Naised"	4458
+" "	"Järva maakonna vallad"
+" "	" "	"Mehed ja naised"	22582
+" "	" "	"Mehed"	11281
+" "	" "	"Naised"	11301
+" "	"..Albu vald"
+" "	" "	"Mehed ja naised"	1176
+" "	" "	"Mehed"	618
+" "	" "	"Naised"	558
+" "	"..Ambla vald"
+" "	" "	"Mehed ja naised"	2013
+" "	" "	"Mehed"	1012
+" "	" "	"Naised"	1001
+" "	"..Imavere vald"
+" "	" "	"Mehed ja naised"	897
+" "	" "	"Mehed"	441
+" "	" "	"Naised"	456
+" "	"..Järva-Jaani vald"
+" "	" "	"Mehed ja naised"	1554
+" "	" "	"Mehed"	778
+" "	" "	"Naised"	776
+" "	"....Järva-Jaani alev"
+" "	" "	"Mehed ja naised"	1028
+" "	" "	"Mehed"	497
+" "	" "	"Naised"	531
+" "	"..Kareda vald"
+" "	" "	"Mehed ja naised"	582
+" "	" "	"Mehed"	293
+" "	" "	"Naised"	289
+" "	"..Koeru vald"
+" "	" "	"Mehed ja naised"	2110
+" "	" "	"Mehed"	1064
+" "	" "	"Naised"	1046
+" "	"..Koigi vald"
+" "	" "	"Mehed ja naised"	955
+" "	" "	"Mehed"	501
+" "	" "	"Naised"	454
+" "	"..Paide vald"
+" "	" "	"Mehed ja naised"	1627
+" "	" "	"Mehed"	872
+" "	" "	"Naised"	755
+" "	"..Roosna-Alliku vald"
+" "	" "	"Mehed ja naised"	1037
+" "	" "	"Mehed"	540
+" "	" "	"Naised"	497
+" "	"..Türi vald"
+" "	" "	"Mehed ja naised"	9351
+" "	" "	"Mehed"	4506
+" "	" "	"Naised"	4845
+" "	"....Türi linn (vallasisene)"
+" "	" "	"Mehed ja naised"	5250
+" "	" "	"Mehed"	2404
+" "	" "	"Naised"	2846
+" "	"..Väätsa vald"
+" "	" "	"Mehed ja naised"	1280
+" "	" "	"Mehed"	656
+" "	" "	"Naised"	624
+" "	"LÄÄNE MAAKOND"
+" "	" "	"Mehed ja naised"	24580
+" "	" "	"Mehed"	11893
+" "	" "	"Naised"	12687
+" "	"Lääne maakonna linnad"
+" "	" "	"Mehed ja naised"	10146
+" "	" "	"Mehed"	4493
+" "	" "	"Naised"	5653
+" "	"..Haapsalu linn"
+" "	" "	"Mehed ja naised"	10146
+" "	" "	"Mehed"	4493
+" "	" "	"Naised"	5653
+" "	"Lääne maakonna vallad"
+" "	" "	"Mehed ja naised"	14434
+" "	" "	"Mehed"	7400
+" "	" "	"Naised"	7034
+" "	"..Hanila vald"
+" "	" "	"Mehed ja naised"	1428
+" "	" "	"Mehed"	737
+" "	" "	"Naised"	691
+" "	"..Kullamaa vald"
+" "	" "	"Mehed ja naised"	1111
+" "	" "	"Mehed"	576
+" "	" "	"Naised"	535
+" "	"..Lihula vald"
+" "	" "	"Mehed ja naised"	2267
+" "	" "	"Mehed"	1125
+" "	" "	"Naised"	1142
+" "	"....Lihula linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1246
+" "	" "	"Mehed"	595
+" "	" "	"Naised"	651
+" "	"..Lääne-Nigula vald"
+" "	" "	"Mehed ja naised"	4054
+" "	" "	"Mehed"	2059
+" "	" "	"Naised"	1995
+" "	"..Martna vald"
+" "	" "	"Mehed ja naised"	760
+" "	" "	"Mehed"	401
+" "	" "	"Naised"	359
+" "	"..Noarootsi vald"
+" "	" "	"Mehed ja naised"	815
+" "	" "	"Mehed"	439
+" "	" "	"Naised"	376
+" "	"..Nõva vald"
+" "	" "	"Mehed ja naised"	357
+" "	" "	"Mehed"	190
+" "	" "	"Naised"	167
+" "	"..Oru vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Ridala vald"
+" "	" "	"Mehed ja naised"	3245
+" "	" "	"Mehed"	1631
+" "	" "	"Naised"	1614
+" "	"..Risti vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Taebla vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Vormsi vald"
+" "	" "	"Mehed ja naised"	397
+" "	" "	"Mehed"	242
+" "	" "	"Naised"	155
+" "	"LÄÄNE-VIRU MAAKOND"
+" "	" "	"Mehed ja naised"	59467
+" "	" "	"Mehed"	28649
+" "	" "	"Naised"	30818
+" "	"Lääne-Viru maakonna linnad"
+" "	" "	"Mehed ja naised"	18883
+" "	" "	"Mehed"	8526
+" "	" "	"Naised"	10357
+" "	"..Kunda linn"
+" "	" "	"Mehed ja naised"	3136
+" "	" "	"Mehed"	1453
+" "	" "	"Naised"	1683
+" "	"..Rakvere linn"
+" "	" "	"Mehed ja naised"	15747
+" "	" "	"Mehed"	7073
+" "	" "	"Naised"	8674
+" "	"Lääne-Viru maakonna vallad"
+" "	" "	"Mehed ja naised"	40584
+" "	" "	"Mehed"	20123
+" "	" "	"Naised"	20461
+" "	"..Haljala vald"
+" "	" "	"Mehed ja naised"	2470
+" "	" "	"Mehed"	1257
+" "	" "	"Naised"	1213
+" "	"..Kadrina vald"
+" "	" "	"Mehed ja naised"	4896
+" "	" "	"Mehed"	2422
+" "	" "	"Naised"	2474
+" "	"..Laekvere vald"
+" "	" "	"Mehed ja naised"	1512
+" "	" "	"Mehed"	771
+" "	" "	"Naised"	741
+" "	"..Rakke vald"
+" "	" "	"Mehed ja naised"	1631
+" "	" "	"Mehed"	829
+" "	" "	"Naised"	802
+" "	"..Rakvere vald"
+" "	" "	"Mehed ja naised"	2056
+" "	" "	"Mehed"	1046
+" "	" "	"Naised"	1010
+" "	"..Rägavere vald"
+" "	" "	"Mehed ja naised"	821
+" "	" "	"Mehed"	423
+" "	" "	"Naised"	398
+" "	"..Sõmeru vald"
+" "	" "	"Mehed ja naised"	3424
+" "	" "	"Mehed"	1693
+" "	" "	"Naised"	1731
+" "	"..Tamsalu vald"
+" "	" "	"Mehed ja naised"	3820
+" "	" "	"Mehed"	1842
+" "	" "	"Naised"	1978
+" "	"....Tamsalu linn (vallasisene)"
+" "	" "	"Mehed ja naised"	2197
+" "	" "	"Mehed"	1006
+" "	" "	"Naised"	1191
+" "	"..Tapa vald"
+" "	" "	"Mehed ja naised"	7578
+" "	" "	"Mehed"	3615
+" "	" "	"Naised"	3963
+" "	"....Tapa linn (vallasisene)"
+" "	" "	"Mehed ja naised"	5478
+" "	" "	"Mehed"	2525
+" "	" "	"Naised"	2953
+" "	"..Vihula vald"
+" "	" "	"Mehed ja naised"	1918
+" "	" "	"Mehed"	1039
+" "	" "	"Naised"	879
+" "	"..Vinni vald"
+" "	" "	"Mehed ja naised"	4689
+" "	" "	"Mehed"	2291
+" "	" "	"Naised"	2398
+" "	"..Viru-Nigula vald"
+" "	" "	"Mehed ja naised"	1288
+" "	" "	"Mehed"	681
+" "	" "	"Naised"	607
+" "	"..Väike-Maarja vald"
+" "	" "	"Mehed ja naised"	4481
+" "	" "	"Mehed"	2214
+" "	" "	"Naised"	2267
+" "	"PÕLVA MAAKOND"
+" "	" "	"Mehed ja naised"	28218
+" "	" "	"Mehed"	14146
+" "	" "	"Naised"	14072
+" "	"Põlva maakonna linnad"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Põlva linn*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"Põlva maakonna vallad"
+" "	" "	"Mehed ja naised"	28218
+" "	" "	"Mehed"	14146
+" "	" "	"Naised"	14072
+" "	"..Ahja vald"
+" "	" "	"Mehed ja naised"	998
+" "	" "	"Mehed"	539
+" "	" "	"Naised"	459
+" "	"..Kanepi vald"
+" "	" "	"Mehed ja naised"	2390
+" "	" "	"Mehed"	1246
+" "	" "	"Naised"	1144
+" "	"..Kõlleste vald"
+" "	" "	"Mehed ja naised"	1022
+" "	" "	"Mehed"	542
+" "	" "	"Naised"	480
+" "	"..Laheda vald"
+" "	" "	"Mehed ja naised"	1183
+" "	" "	"Mehed"	613
+" "	" "	"Naised"	570
+" "	"..Mikitamäe vald"
+" "	" "	"Mehed ja naised"	939
+" "	" "	"Mehed"	505
+" "	" "	"Naised"	434
+" "	"..Mooste vald"
+" "	" "	"Mehed ja naised"	1457
+" "	" "	"Mehed"	743
+" "	" "	"Naised"	714
+" "	"..Orava vald"
+" "	" "	"Mehed ja naised"	719
+" "	" "	"Mehed"	367
+" "	" "	"Naised"	352
+" "	"..Põlva vald"
+" "	" "	"Mehed ja naised"	9575
+" "	" "	"Mehed"	4583
+" "	" "	"Naised"	4992
+" "	"....Põlva linn (vallasisene)"
+" "	" "	"Mehed ja naised"	5643
+" "	" "	"Mehed"	2569
+" "	" "	"Naised"	3074
+" "	"..Räpina vald"
+" "	" "	"Mehed ja naised"	4686
+" "	" "	"Mehed"	2291
+" "	" "	"Naised"	2395
+" "	"....Räpina linn (vallasisene)"
+" "	" "	"Mehed ja naised"	2235
+" "	" "	"Mehed"	1039
+" "	" "	"Naised"	1196
+" "	"..Valgjärve vald"
+" "	" "	"Mehed ja naised"	1396
+" "	" "	"Mehed"	723
+" "	" "	"Naised"	673
+" "	"..Vastse-Kuuste vald"
+" "	" "	"Mehed ja naised"	1165
+" "	" "	"Mehed"	616
+" "	" "	"Naised"	549
+" "	"..Veriora vald"
+" "	" "	"Mehed ja naised"	1366
+" "	" "	"Mehed"	691
+" "	" "	"Naised"	675
+" "	"..Värska vald"
+" "	" "	"Mehed ja naised"	1322
+" "	" "	"Mehed"	687
+" "	" "	"Naised"	635
+" "	"PÄRNU MAAKOND"
+" "	" "	"Mehed ja naised"	82997
+" "	" "	"Mehed"	39025
+" "	" "	"Naised"	43972
+" "	"Pärnu maakonna linnad"
+" "	" "	"Mehed ja naised"	43719
+" "	" "	"Mehed"	19411
+" "	" "	"Naised"	24308
+" "	"..Pärnu linn"
+" "	" "	"Mehed ja naised"	39828
+" "	" "	"Mehed"	17643
+" "	" "	"Naised"	22185
+" "	"..Sindi linn"
+" "	" "	"Mehed ja naised"	3891
+" "	" "	"Mehed"	1768
+" "	" "	"Naised"	2123
+" "	"Pärnu maakonna vallad"
+" "	" "	"Mehed ja naised"	39278
+" "	" "	"Mehed"	19614
+" "	" "	"Naised"	19664
+" "	"..Are vald"
+" "	" "	"Mehed ja naised"	1279
+" "	" "	"Mehed"	654
+" "	" "	"Naised"	625
+" "	"..Audru vald"
+" "	" "	"Mehed ja naised"	5726
+" "	" "	"Mehed"	2855
+" "	" "	"Naised"	2871
+" "	"....Lavassaare alev"
+" "	" "	"Mehed ja naised"	457
+" "	" "	"Mehed"	216
+" "	" "	"Naised"	241
+" "	"..Halinga vald"
+" "	" "	"Mehed ja naised"	2871
+" "	" "	"Mehed"	1405
+" "	" "	"Naised"	1466
+" "	"....Pärnu-Jaagupi alev"
+" "	" "	"Mehed ja naised"	1108
+" "	" "	"Mehed"	499
+" "	" "	"Naised"	609
+" "	"..Häädemeeste vald"
+" "	" "	"Mehed ja naised"	2522
+" "	" "	"Mehed"	1263
+" "	" "	"Naised"	1259
+" "	"..Kihnu vald"
+" "	" "	"Mehed ja naised"	682
+" "	" "	"Mehed"	334
+" "	" "	"Naised"	348
+" "	"..Koonga vald"
+" "	" "	"Mehed ja naised"	1051
+" "	" "	"Mehed"	553
+" "	" "	"Naised"	498
+" "	"..Lavassaare vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"....Lavassaare alev*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Paikuse vald"
+" "	" "	"Mehed ja naised"	3838
+" "	" "	"Mehed"	1876
+" "	" "	"Naised"	1962
+" "	"....Paikuse alev"
+" "	" "	"Mehed ja naised"	2921
+" "	" "	"Mehed"	1400
+" "	" "	"Naised"	1521
+" "	"..Saarde vald"
+" "	" "	"Mehed ja naised"	3895
+" "	" "	"Mehed"	1911
+" "	" "	"Naised"	1984
+" "	"....Kilingi-Nõmme linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1734
+" "	" "	"Mehed"	782
+" "	" "	"Naised"	952
+" "	"..Sauga vald"
+" "	" "	"Mehed ja naised"	4071
+" "	" "	"Mehed"	2052
+" "	" "	"Naised"	2019
+" "	"..Surju vald"
+" "	" "	"Mehed ja naised"	942
+" "	" "	"Mehed"	490
+" "	" "	"Naised"	452
+" "	"..Tahkuranna vald"
+" "	" "	"Mehed ja naised"	2352
+" "	" "	"Mehed"	1182
+" "	" "	"Naised"	1170
+" "	"..Tootsi vald"
+" "	" "	"Mehed ja naised"	775
+" "	" "	"Mehed"	374
+" "	" "	"Naised"	401
+" "	"....Tootsi alev"
+" "	" "	"Mehed ja naised"	775
+" "	" "	"Mehed"	374
+" "	" "	"Naised"	401
+" "	"..Tori vald"
+" "	" "	"Mehed ja naised"	2286
+" "	" "	"Mehed"	1163
+" "	" "	"Naised"	1123
+" "	"..Tõstamaa vald"
+" "	" "	"Mehed ja naised"	1305
+" "	" "	"Mehed"	680
+" "	" "	"Naised"	625
+" "	"..Varbla vald"
+" "	" "	"Mehed ja naised"	823
+" "	" "	"Mehed"	432
+" "	" "	"Naised"	391
+" "	"..Vändra vald*"
+" "	" "	"Mehed ja naised"	2669
+" "	" "	"Mehed"	1391
+" "	" "	"Naised"	1278
+" "	"..Vändra vald (alev)"
+" "	" "	"Mehed ja naised"	2191
+" "	" "	"Mehed"	999
+" "	" "	"Naised"	1192
+" "	"....Vändra alev"
+" "	" "	"Mehed ja naised"	2191
+" "	" "	"Mehed"	999
+" "	" "	"Naised"	1192
+" "	"RAPLA MAAKOND"
+" "	" "	"Mehed ja naised"	34148
+" "	" "	"Mehed"	16858
+" "	" "	"Naised"	17290
+" "	"Rapla maakonna linnad"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"Rapla maakonna vallad"
+" "	" "	"Mehed ja naised"	34148
+" "	" "	"Mehed"	16858
+" "	" "	"Naised"	17290
+" "	"..Juuru vald"
+" "	" "	"Mehed ja naised"	1429
+" "	" "	"Mehed"	720
+" "	" "	"Naised"	709
+" "	"..Järvakandi vald"
+" "	" "	"Mehed ja naised"	1256
+" "	" "	"Mehed"	574
+" "	" "	"Naised"	682
+" "	"....Järvakandi alev"
+" "	" "	"Mehed ja naised"	1256
+" "	" "	"Mehed"	574
+" "	" "	"Naised"	682
+" "	"..Kaiu vald"
+" "	" "	"Mehed ja naised"	1253
+" "	" "	"Mehed"	645
+" "	" "	"Naised"	608
+" "	"..Kehtna vald"
+" "	" "	"Mehed ja naised"	4405
+" "	" "	"Mehed"	2214
+" "	" "	"Naised"	2191
+" "	"..Kohila vald"
+" "	" "	"Mehed ja naised"	6770
+" "	" "	"Mehed"	3421
+" "	" "	"Naised"	3349
+" "	"....Kohila alev"
+" "	" "	"Mehed ja naised"	3184
+" "	" "	"Mehed"	1506
+" "	" "	"Naised"	1678
+" "	"..Käru vald"
+" "	" "	"Mehed ja naised"	609
+" "	" "	"Mehed"	318
+" "	" "	"Naised"	291
+" "	"..Märjamaa vald"
+" "	" "	"Mehed ja naised"	6515
+" "	" "	"Mehed"	3253
+" "	" "	"Naised"	3262
+" "	"....Märjamaa alev"
+" "	" "	"Mehed ja naised"	2717
+" "	" "	"Mehed"	1314
+" "	" "	"Naised"	1403
+" "	"..Raikküla vald"
+" "	" "	"Mehed ja naised"	1519
+" "	" "	"Mehed"	756
+" "	" "	"Naised"	763
+" "	"..Rapla vald"
+" "	" "	"Mehed ja naised"	9170
+" "	" "	"Mehed"	4340
+" "	" "	"Naised"	4830
+" "	"....Rapla linn (vallasisene)"
+" "	" "	"Mehed ja naised"	5181
+" "	" "	"Mehed"	2312
+" "	" "	"Naised"	2869
+" "	"..Vigala vald"
+" "	" "	"Mehed ja naised"	1222
+" "	" "	"Mehed"	617
+" "	" "	"Naised"	605
+" "	"SAARE MAAKOND"
+" "	" "	"Mehed ja naised"	33481
+" "	" "	"Mehed"	16419
+" "	" "	"Naised"	17062
+" "	"Saare maakonna linnad"
+" "	" "	"Mehed ja naised"	13449
+" "	" "	"Mehed"	6108
+" "	" "	"Naised"	7341
+" "	"..Kuressaare linn"
+" "	" "	"Mehed ja naised"	13449
+" "	" "	"Mehed"	6108
+" "	" "	"Naised"	7341
+" "	"Saare maakonna vallad"
+" "	" "	"Mehed ja naised"	20032
+" "	" "	"Mehed"	10311
+" "	" "	"Naised"	9721
+" "	"..Kaarma vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Kihelkonna vald"
+" "	" "	"Mehed ja naised"	750
+" "	" "	"Mehed"	389
+" "	" "	"Naised"	361
+" "	"..Kärla vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Laimjala vald"
+" "	" "	"Mehed ja naised"	692
+" "	" "	"Mehed"	372
+" "	" "	"Naised"	320
+" "	"..Leisi vald"
+" "	" "	"Mehed ja naised"	1974
+" "	" "	"Mehed"	1015
+" "	" "	"Naised"	959
+" "	"..Lääne-Saare vald"
+" "	" "	"Mehed ja naised"	7086
+" "	" "	"Mehed"	3623
+" "	" "	"Naised"	3463
+" "	"..Lümanda vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Muhu vald"
+" "	" "	"Mehed ja naised"	1802
+" "	" "	"Mehed"	942
+" "	" "	"Naised"	860
+" "	"..Mustjala vald"
+" "	" "	"Mehed ja naised"	660
+" "	" "	"Mehed"	355
+" "	" "	"Naised"	305
+" "	"..Orissaare vald"
+" "	" "	"Mehed ja naised"	1827
+" "	" "	"Mehed"	914
+" "	" "	"Naised"	913
+" "	"..Pihtla vald"
+" "	" "	"Mehed ja naised"	1392
+" "	" "	"Mehed"	733
+" "	" "	"Naised"	659
+" "	"..Pöide vald"
+" "	" "	"Mehed ja naised"	880
+" "	" "	"Mehed"	435
+" "	" "	"Naised"	445
+" "	"..Ruhnu vald"
+" "	" "	"Mehed ja naised"	138
+" "	" "	"Mehed"	69
+" "	" "	"Naised"	69
+" "	"..Salme vald"
+" "	" "	"Mehed ja naised"	1168
+" "	" "	"Mehed"	591
+" "	" "	"Naised"	577
+" "	"..Torgu vald"
+" "	" "	"Mehed ja naised"	339
+" "	" "	"Mehed"	180
+" "	" "	"Naised"	159
+" "	"..Valjala vald"
+" "	" "	"Mehed ja naised"	1324
+" "	" "	"Mehed"	693
+" "	" "	"Naised"	631
+" "	"TARTU MAAKOND"
+" "	" "	"Mehed ja naised"	145003
+" "	" "	"Mehed"	67478
+" "	" "	"Naised"	77525
+" "	"Tartu maakonna linnad"
+" "	" "	"Mehed ja naised"	100174
+" "	" "	"Mehed"	44675
+" "	" "	"Naised"	55499
+" "	"..Elva linn"
+" "	" "	"Mehed ja naised"	5679
+" "	" "	"Mehed"	2647
+" "	" "	"Naised"	3032
+" "	"..Kallaste linn"
+" "	" "	"Mehed ja naised"	808
+" "	" "	"Mehed"	395
+" "	" "	"Naised"	413
+" "	"..Tartu linn"
+" "	" "	"Mehed ja naised"	93687
+" "	" "	"Mehed"	41633
+" "	" "	"Naised"	52054
+" "	"Tartu maakonna vallad"
+" "	" "	"Mehed ja naised"	44829
+" "	" "	"Mehed"	22803
+" "	" "	"Naised"	22026
+" "	"..Alatskivi vald"
+" "	" "	"Mehed ja naised"	1279
+" "	" "	"Mehed"	632
+" "	" "	"Naised"	647
+" "	"..Haaslava vald"
+" "	" "	"Mehed ja naised"	1971
+" "	" "	"Mehed"	1029
+" "	" "	"Naised"	942
+" "	"..Kambja vald"
+" "	" "	"Mehed ja naised"	2599
+" "	" "	"Mehed"	1294
+" "	" "	"Naised"	1305
+" "	"..Konguta vald"
+" "	" "	"Mehed ja naised"	1428
+" "	" "	"Mehed"	762
+" "	" "	"Naised"	666
+" "	"..Laeva vald"
+" "	" "	"Mehed ja naised"	746
+" "	" "	"Mehed"	367
+" "	" "	"Naised"	379
+" "	"..Luunja vald"
+" "	" "	"Mehed ja naised"	4000
+" "	" "	"Mehed"	1983
+" "	" "	"Naised"	2017
+" "	"..Meeksi vald"
+" "	" "	"Mehed ja naised"	583
+" "	" "	"Mehed"	326
+" "	" "	"Naised"	257
+" "	"..Mäksa vald"
+" "	" "	"Mehed ja naised"	1598
+" "	" "	"Mehed"	797
+" "	" "	"Naised"	801
+" "	"..Nõo vald"
+" "	" "	"Mehed ja naised"	3922
+" "	" "	"Mehed"	1979
+" "	" "	"Naised"	1943
+" "	"..Peipsiääre vald"
+" "	" "	"Mehed ja naised"	660
+" "	" "	"Mehed"	349
+" "	" "	"Naised"	311
+" "	"..Piirissaare vald"
+" "	" "	"Mehed ja naised"	99
+" "	" "	"Mehed"	59
+" "	" "	"Naised"	40
+" "	"..Puhja vald"
+" "	" "	"Mehed ja naised"	2226
+" "	" "	"Mehed"	1113
+" "	" "	"Naised"	1113
+" "	"..Rannu vald"
+" "	" "	"Mehed ja naised"	1581
+" "	" "	"Mehed"	811
+" "	" "	"Naised"	770
+" "	"..Rõngu vald"
+" "	" "	"Mehed ja naised"	2688
+" "	" "	"Mehed"	1371
+" "	" "	"Naised"	1317
+" "	"..Tartu vald"
+" "	" "	"Mehed ja naised"	6908
+" "	" "	"Mehed"	3557
+" "	" "	"Naised"	3351
+" "	"..Tähtvere vald"
+" "	" "	"Mehed ja naised"	2525
+" "	" "	"Mehed"	1286
+" "	" "	"Naised"	1239
+" "	"..Vara vald"
+" "	" "	"Mehed ja naised"	1839
+" "	" "	"Mehed"	946
+" "	" "	"Naised"	893
+" "	"..Võnnu vald"
+" "	" "	"Mehed ja naised"	1110
+" "	" "	"Mehed"	569
+" "	" "	"Naised"	541
+" "	"..Ülenurme vald"
+" "	" "	"Mehed ja naised"	7067
+" "	" "	"Mehed"	3573
+" "	" "	"Naised"	3494
+" "	"VALGA MAAKOND"
+" "	" "	"Mehed ja naised"	30524
+" "	" "	"Mehed"	14773
+" "	" "	"Naised"	15751
+" "	"Valga maakonna linnad"
+" "	" "	"Mehed ja naised"	15452
+" "	" "	"Mehed"	7159
+" "	" "	"Naised"	8293
+" "	"..Tõrva linn"
+" "	" "	"Mehed ja naised"	2820
+" "	" "	"Mehed"	1326
+" "	" "	"Naised"	1494
+" "	"..Valga linn"
+" "	" "	"Mehed ja naised"	12632
+" "	" "	"Mehed"	5833
+" "	" "	"Naised"	6799
+" "	"Valga maakonna vallad"
+" "	" "	"Mehed ja naised"	15072
+" "	" "	"Mehed"	7614
+" "	" "	"Naised"	7458
+" "	"..Helme vald"
+" "	" "	"Mehed ja naised"	1985
+" "	" "	"Mehed"	983
+" "	" "	"Naised"	1002
+" "	"..Hummuli vald"
+" "	" "	"Mehed ja naised"	829
+" "	" "	"Mehed"	426
+" "	" "	"Naised"	403
+" "	"..Karula vald"
+" "	" "	"Mehed ja naised"	959
+" "	" "	"Mehed"	498
+" "	" "	"Naised"	461
+" "	"..Otepää vald"
+" "	" "	"Mehed ja naised"	3872
+" "	" "	"Mehed"	1874
+" "	" "	"Naised"	1998
+" "	"....Otepää linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1933
+" "	" "	"Mehed"	891
+" "	" "	"Naised"	1042
+" "	"..Palupera vald"
+" "	" "	"Mehed ja naised"	1044
+" "	" "	"Mehed"	530
+" "	" "	"Naised"	514
+" "	"..Puka vald"
+" "	" "	"Mehed ja naised"	1573
+" "	" "	"Mehed"	805
+" "	" "	"Naised"	768
+" "	"..Põdrala vald"
+" "	" "	"Mehed ja naised"	751
+" "	" "	"Mehed"	393
+" "	" "	"Naised"	358
+" "	"..Sangaste vald"
+" "	" "	"Mehed ja naised"	1268
+" "	" "	"Mehed"	653
+" "	" "	"Naised"	615
+" "	"..Taheva vald"
+" "	" "	"Mehed ja naised"	736
+" "	" "	"Mehed"	388
+" "	" "	"Naised"	348
+" "	"..Tõlliste vald"
+" "	" "	"Mehed ja naised"	1588
+" "	" "	"Mehed"	809
+" "	" "	"Naised"	779
+" "	"..Õru vald"
+" "	" "	"Mehed ja naised"	467
+" "	" "	"Mehed"	255
+" "	" "	"Naised"	212
+" "	"VILJANDI MAAKOND"
+" "	" "	"Mehed ja naised"	47853
+" "	" "	"Mehed"	23039
+" "	" "	"Naised"	24814
+" "	"Viljandi maakonna linnad"
+" "	" "	"Mehed ja naised"	19964
+" "	" "	"Mehed"	8956
+" "	" "	"Naised"	11008
+" "	"..Mõisaküla linn"
+" "	" "	"Mehed ja naised"	790
+" "	" "	"Mehed"	381
+" "	" "	"Naised"	409
+" "	"..Viljandi linn"
+" "	" "	"Mehed ja naised"	17860
+" "	" "	"Mehed"	7965
+" "	" "	"Naised"	9895
+" "	"..Võhma linn"
+" "	" "	"Mehed ja naised"	1314
+" "	" "	"Mehed"	610
+" "	" "	"Naised"	704
+" "	"Viljandi maakonna vallad"
+" "	" "	"Mehed ja naised"	27889
+" "	" "	"Mehed"	14083
+" "	" "	"Naised"	13806
+" "	"..Abja vald"
+" "	" "	"Mehed ja naised"	2159
+" "	" "	"Mehed"	1057
+" "	" "	"Naised"	1102
+" "	"....Abja-Paluoja linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1134
+" "	" "	"Mehed"	523
+" "	" "	"Naised"	611
+" "	"..Halliste vald"
+" "	" "	"Mehed ja naised"	1479
+" "	" "	"Mehed"	757
+" "	" "	"Naised"	722
+" "	"..Karksi vald"
+" "	" "	"Mehed ja naised"	3333
+" "	" "	"Mehed"	1648
+" "	" "	"Naised"	1685
+" "	"....Karksi-Nuia linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1614
+" "	" "	"Mehed"	750
+" "	" "	"Naised"	864
+" "	"..Kolga-Jaani vald"
+" "	" "	"Mehed ja naised"	1429
+" "	" "	"Mehed"	742
+" "	" "	"Naised"	687
+" "	"..Kõo vald"
+" "	" "	"Mehed ja naised"	1047
+" "	" "	"Mehed"	525
+" "	" "	"Naised"	522
+" "	"..Kõpu vald"
+" "	" "	"Mehed ja naised"	633
+" "	" "	"Mehed"	324
+" "	" "	"Naised"	309
+" "	"..Paistu vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Pärsti vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Saarepeedi vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Suure-Jaani vald"
+" "	" "	"Mehed ja naised"	5248
+" "	" "	"Mehed"	2635
+" "	" "	"Naised"	2613
+" "	"....Suure-Jaani linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1059
+" "	" "	"Mehed"	511
+" "	" "	"Naised"	548
+" "	"..Tarvastu vald"
+" "	" "	"Mehed ja naised"	3321
+" "	" "	"Mehed"	1681
+" "	" "	"Naised"	1640
+" "	"..Viiratsi vald*"
+" "	" "	"Mehed ja naised"	.
+" "	" "	"Mehed"	.
+" "	" "	"Naised"	.
+" "	"..Viljandi vald"
+" "	" "	"Mehed ja naised"	9240
+" "	" "	"Mehed"	4714
+" "	" "	"Naised"	4526
+" "	"VÕRU MAAKOND"
+" "	" "	"Mehed ja naised"	33973
+" "	" "	"Mehed"	16567
+" "	" "	"Naised"	17406
+" "	"Võru maakonna linnad"
+" "	" "	"Mehed ja naised"	12430
+" "	" "	"Mehed"	5532
+" "	" "	"Naised"	6898
+" "	"..Võru linn"
+" "	" "	"Mehed ja naised"	12430
+" "	" "	"Mehed"	5532
+" "	" "	"Naised"	6898
+" "	"Võru maakonna vallad"
+" "	" "	"Mehed ja naised"	21543
+" "	" "	"Mehed"	11035
+" "	" "	"Naised"	10508
+" "	"..Antsla vald"
+" "	" "	"Mehed ja naised"	3325
+" "	" "	"Mehed"	1670
+" "	" "	"Naised"	1655
+" "	"....Antsla linn (vallasisene)"
+" "	" "	"Mehed ja naised"	1335
+" "	" "	"Mehed"	630
+" "	" "	"Naised"	705
+" "	"..Haanja vald"
+" "	" "	"Mehed ja naised"	1084
+" "	" "	"Mehed"	569
+" "	" "	"Naised"	515
+" "	"..Lasva vald"
+" "	" "	"Mehed ja naised"	1684
+" "	" "	"Mehed"	860
+" "	" "	"Naised"	824
+" "	"..Meremäe vald"
+" "	" "	"Mehed ja naised"	1032
+" "	" "	"Mehed"	542
+" "	" "	"Naised"	490
+" "	"..Misso vald"
+" "	" "	"Mehed ja naised"	631
+" "	" "	"Mehed"	346
+" "	" "	"Naised"	285
+" "	"..Mõniste vald"
+" "	" "	"Mehed ja naised"	859
+" "	" "	"Mehed"	458
+" "	" "	"Naised"	401
+" "	"..Rõuge vald"
+" "	" "	"Mehed ja naised"	2157
+" "	" "	"Mehed"	1115
+" "	" "	"Naised"	1042
+" "	"..Sõmerpalu vald"
+" "	" "	"Mehed ja naised"	1771
+" "	" "	"Mehed"	877
+" "	" "	"Naised"	894
+" "	"..Urvaste vald"
+" "	" "	"Mehed ja naised"	1269
+" "	" "	"Mehed"	658
+" "	" "	"Naised"	611
+" "	"..Varstu vald"
+" "	" "	"Mehed ja naised"	1050
+" "	" "	"Mehed"	557
+" "	" "	"Naised"	493
+" "	"..Vastseliina vald"
+" "	" "	"Mehed ja naised"	1970
+" "	" "	"Mehed"	996
+" "	" "	"Naised"	974
+" "	"..Võru vald"
+" "	" "	"Mehed ja naised"	4711
+" "	" "	"Mehed"	2387
+" "	" "	"Naised"	2324
+" "	"Maakond teadmata"
+" "	" "	"Mehed ja naised"	1574
+" "	" "	"Mehed"	759
+" "	" "	"Naised"	815
+
+"Linnaliste asulate hulka on arvestatud linnad, vallasisesed linnad ja "
+"alevid, maa-asulate hulka alevikud ja külad. "
+"Rahvaarvu arvutamise metoodika on 2016. aastast muutunud. Eesti "
+"püsielanike arvestamisel kasutatakse registrite põhjal koostatud "
+"indeksit. Elukohaks on isikute rahvastikuregistrijärgne elukoht, "
+"selle puudumisel kajastuvad isikud jaotises ''Maakond teadmata''. "
+"Tallinna ja Kohtla-Järve linnaosad on lisatud 04.05.2016. "
+"* Muudatusi haldusjaotuses vaata mõisted ja metoodika rubriigist "
+"''Klassifikaatorid''."
+
+"Kuni aastani 2013 Lavassaare valla koosseisus."
+
+"Alates aastast 2014 Audru valla koosseisus."
+

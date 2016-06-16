@@ -41,4 +41,5 @@ func returnFaktoid(f *faktoid.Faktoid, w http.ResponseWriter){
 
 func InitFakt(someF faktoid.Fakt){
 	thisF = someF
+	thisF.Init()
 }

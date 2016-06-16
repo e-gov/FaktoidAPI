@@ -44,7 +44,6 @@ var _ = Describe("RahvaService", func() {
 				f = new(Faktoid)
 				err = json.Unmarshal(body, f)
 				Expect(err).To(BeNil())
-
 			})
 		})
 	})
@@ -54,7 +53,7 @@ var _ = Describe("RahvaService", func() {
 		Context("Get a random fact using EHAK code", func(){
 			It("Should return 200", func(){
 				var f *Faktoid
-				request, _ = http.NewRequest("GET", "/faktoid/0037", nil)
+				request, _ = http.NewRequest("GET", "/faktoid/0143", nil)
 				router.ServeHTTP(recorder, request)
 				Expect(recorder.Code).To(Equal(200))
 

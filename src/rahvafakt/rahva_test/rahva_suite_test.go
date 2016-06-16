@@ -10,7 +10,7 @@ import (
 
 var log = logging.MustGetLogger("rahva_test")
 
-func TestLogin(t *testing.T) {
+func TestRahvaFakt(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "Rahva Suite")
 }
