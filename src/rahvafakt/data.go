@@ -1,23 +1,23 @@
 package rahvafakt
 
 import (
-	"ehak"
 	"encoding/csv"
 	"io"
 	"os"
 	"regexp"
 	"strconv"
+	"EHAK"
 )
 
-type Population struct {
+type population struct {
 	EhakCode string `json:"ehak"`
 	Men      int    `json:"men"`
 	Women    int    `json:"women"`
 }
 
-func readPopLine(rdr *csv.Reader) *Population {
+func readPopLine(rdr *csv.Reader) *population {
 	var r []string
-	var p Population
+	var p population
 
 	// Ignore the first line, it is a sum of the next two
 	r, _ = rdr.Read()
@@ -31,10 +31,12 @@ func readPopLine(rdr *csv.Reader) *Population {
 	return &p
 }
 
-func LoadData(fname string, ehak *[]string) *map[string]Population {
-	var ps map[string]Population
+// LoadData loads the population data from the filename supplied and merges it with the EHAK dataset
+// TODO: make it call EHAK parsing directly, the knowledge is only useful in here
+func LoadData(fname string, ehak *[]string) *map[string]population {
+	var ps map[string]population
 	var content bool
-	var p *Population
+	var p *population
 	var v *Stack
 
 	if _, fErr := os.Stat(fname); os.IsNotExist(fErr) {
@@ -67,7 +69,7 @@ func LoadData(fname string, ehak *[]string) *map[string]Population {
 	pDots := 0
 	v = new(Stack)
 	dots := regexp.MustCompile("^(\\.*)")
-	ps = make(map[string]Population)
+	ps = make(map[string]population)
 	if content {
 		for {
 			r, err := rdr.Read()

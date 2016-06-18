@@ -4,7 +4,7 @@ import(
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "rahvafakt"
-	"ehak"
+	"EHAK"
 )
 
 var _ = Describe("Dataset test", func() {
@@ -14,10 +14,10 @@ var _ = Describe("Dataset test", func() {
 	Describe("Basic dataset handling" , func(){
 		Context("Loading", func(){
 			It("Should get some lines", func(){
-				ehak, err := EHAK.Load(ehakF)
+				e, err := EHAK.Load(ehakF)
 				Expect(err).To(BeNil())
 
-				r := LoadData(dataF, ehak)
+				r := LoadData(dataF, e)
 				Expect(len(*r)).To(Not(Equal(0)))				
 			})
 		})

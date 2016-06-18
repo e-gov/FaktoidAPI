@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/op/go-logging"
+	logging "github.com/op/go-logging"
 	"net/http"
 	"os"
 

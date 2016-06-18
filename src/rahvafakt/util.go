@@ -1,11 +1,14 @@
 package rahvafakt
 
+// Stack is a simple stack implementation
 type Stack []string
 
+// Push adds an element to stack
 func (s *Stack) Push(v string) {
     *s = append(*s, v)
 }
 
+// Pop removes an element from the stack
 func (s *Stack) Pop() string {
     if len(*s) == 0 {
         return ""
@@ -15,6 +18,7 @@ func (s *Stack) Pop() string {
     return res
 }
 
+// Content returns the content of the stack
 func (s *Stack) Content() *[]string {
     var c []string
     var i int

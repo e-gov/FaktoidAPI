@@ -10,7 +10,7 @@ import (
 
 var log = logging.MustGetLogger("RahvaFakt")
 
-
+// NewRouter returns a properly initialized router with request handlers and logging attached
 func NewRouter() *mux.Router{
 	router := mux.NewRouter().StrictSlash(true)
 	for _, route := range routes {

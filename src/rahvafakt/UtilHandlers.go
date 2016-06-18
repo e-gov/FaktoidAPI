@@ -9,9 +9,9 @@ import(
 )
 
 // The variables to hold the statistics
-var parallelRequestCount int = 0
-var timeOfLastNOK time.Time = time.Now()
-var timeOfLastOK time.Time = time.Now()
+var parallelRequestCount int
+var timeOfLastNOK = time.Now()
+var timeOfLastOK = time.Now()
 
 // An extension of the ResponseWriter that can record the
 // HTTP status codes sent out
@@ -28,7 +28,7 @@ type statResponseWriter interface {
 	Size() int
 }
 
-func MakeLogger(w http.ResponseWriter) statResponseWriter{
+func makeLogger(w http.ResponseWriter) statResponseWriter{
 	var l statResponseWriter = &statLogger{w: w}
 	return l
 }
@@ -60,10 +60,10 @@ func (l *statLogger) Size() int{
 	return l.size
 }
 
-// HTTP logging handler
+// LoggingHandler is a HTTP logging handler writing Apache Common Log lines to a logger using INFO level
 func LoggingHandler(inner http.Handler, log *logging.Logger) http.Handler{
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request){
-		sw := MakeLogger(w)
+		sw := makeLogger(w)
 		inner.ServeHTTP(sw, r)
 		log.Info(buildCommonLogLine(r, *r.URL, time.Now(), sw.Status(), sw.Size()))
 	})
@@ -109,9 +109,5 @@ func buildCommonLogLine(req *http.Request, url url.URL, ts time.Time, status int
 		req.Proto, 
 		status, 
 		size)
-}
-
-func SendHeaders(w http.ResponseWriter) {
-	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 }
 
