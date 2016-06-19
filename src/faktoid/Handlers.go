@@ -1,15 +1,16 @@
-package rahvafakt
+package faktoid
 
 import (
 	"net/http"
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"faktoid"
+	logging "github.com/op/go-logging"
 )
 
-var thisF faktoid.Fakt
+var thisF Fakt
+var log = logging.MustGetLogger("FaktoidHandler")
 
-// The handlers are all abstract. TODO: refactor moving standard code to the faktoid package
+// The handlers are all abstract and apply to all faktoid implementations
 
 // GetFaktoid handles the case of returning one random factoid
 func GetFaktoid(w http.ResponseWriter, r *http.Request) {
@@ -32,7 +33,7 @@ func GetData(w http.ResponseWriter, r *http.Request) {
 	thisF.WriteData(w)
 }
 
-func returnFaktoid(f *faktoid.Faktoid, w http.ResponseWriter){
+func returnFaktoid(f *Faktoid, w http.ResponseWriter){
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.WriteHeader(http.StatusOK)
 	if f != nil{
@@ -45,7 +46,7 @@ func returnFaktoid(f *faktoid.Faktoid, w http.ResponseWriter){
 }
 
 // InitFakt initializes the supplied faktoid and keeps it for handlers to use
-func InitFakt(someF faktoid.Fakt){
+func InitFakt(someF Fakt){
 	thisF = someF
 	thisF.Init()
 }

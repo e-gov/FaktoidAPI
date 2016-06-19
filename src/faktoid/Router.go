@@ -1,14 +1,11 @@
-package rahvafakt
+package faktoid
 
 import (
 	"net/http"
 	"os"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/handlers"
-	"github.com/op/go-logging"
 )
-
-var log = logging.MustGetLogger("RahvaFakt")
 
 // NewRouter returns a properly initialized router with request handlers and logging attached
 func NewRouter() *mux.Router{

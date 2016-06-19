@@ -1,4 +1,4 @@
-package rahvafakt
+package faktoid
 
 import (
 	"fmt"

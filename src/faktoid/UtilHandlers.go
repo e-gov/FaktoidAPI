@@ -1,4 +1,5 @@
-package rahvafakt
+package faktoid
+
 import(
 	"net"
 	"net/http"

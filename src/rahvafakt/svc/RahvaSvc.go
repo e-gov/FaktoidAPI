@@ -6,7 +6,7 @@ import (
 	logging "github.com/op/go-logging"
 	"net/http"
 	"os"
-
+	"faktoid"
 	"rahvafakt"	
 	
 )
@@ -21,8 +21,8 @@ func main() {
 	
 	setupLogging(slog)
 	// Instantiate a new PopulationFakt and set up the handlers with it  
-	rahvafakt.InitFakt(new(rahvafakt.PopulationFakt))
-	router := rahvafakt.NewRouter()
+	faktoid.InitFakt(new(rahvafakt.PopulationFakt))
+	router := faktoid.NewRouter()
 	log.Infof("Starting a server on localhost:%d", *port)
 	log.Critical(http.ListenAndServe(fmt.Sprintf(":%d", *port), router))
 }
