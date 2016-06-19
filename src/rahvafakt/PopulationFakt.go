@@ -60,6 +60,14 @@ func (fakt *PopulationFakt) WriteData(w http.ResponseWriter) {
 	w.Write([]byte(str))
 }
 
+func (fakt *PopulationFakt) GetMeta() *faktoid.Meta{
+	m := faktoid.Meta{
+		Source:"Stat ameti aruanne RV0241.csv",
+		Updated:"2016-05-17",
+	}
+	return &m
+}
+
 // Init loads the EHAK classificator and the population file
 // Also, a new source of randomness is created
 func (fakt *PopulationFakt) Init() {

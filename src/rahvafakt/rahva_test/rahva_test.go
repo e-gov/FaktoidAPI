@@ -87,5 +87,24 @@ var _ = Describe("RahvaService", func() {
 			})
 		})
 	})
+
+	Describe("Get metadata", func(){
+		Context("Get dataset metadata", func(){
+			It("Should return 200", func(){
+
+				request, _ = http.NewRequest("GET", "/meta", nil)
+				router.ServeHTTP(recorder, request)
+				Expect(recorder.Code).To(Equal(200))
+
+				body, err := ioutil.ReadAll(io.LimitReader(recorder.Body, bufferLength))
+				Expect(err).To(BeNil())
+
+				m := new(Meta)
+				err = json.Unmarshal(body, m)
+				Expect(err).To(BeNil())
+			})
+		})
+
+	})
 })
 

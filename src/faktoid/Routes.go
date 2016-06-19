@@ -40,5 +40,10 @@ var routes = Routes{
 		"/andmed",
 		GetData,
 	},
-	
+	Route{
+		"meta",
+		"GET",
+		"/meta",
+		GetMeta,
+	},
 }

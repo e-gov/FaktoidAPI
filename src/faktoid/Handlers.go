@@ -33,6 +33,21 @@ func GetData(w http.ResponseWriter, r *http.Request) {
 	thisF.WriteData(w)
 }
 
+func GetMeta(w http.ResponseWriter, r *http.Request){
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	m := thisF.GetMeta()
+	if m != nil{
+		w.WriteHeader(http.StatusOK)
+		if err := json.NewEncoder(w).Encode(m); err != nil {
+			log.Error("Error encoding metadata")
+			panic(err)
+		}
+	} else {
+		w.WriteHeader(http.StatusInternalServerError)
+	}
+
+}
+
 func returnFaktoid(f *Faktoid, w http.ResponseWriter){
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	w.WriteHeader(http.StatusOK)

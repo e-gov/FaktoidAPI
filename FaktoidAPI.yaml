@@ -2,7 +2,7 @@
 swagger: '2.0'
 
 info:
-  version: "0.0.3"
+  version: "0.0.4"
   title: FaktoidAPI
   description: API lühikeste, potentsiaalselt mitmekeelsete faktide esitamiseks internetis. Kõik tulemused peavad olema UTF-8 kodeeringus.
   license:
@@ -54,7 +54,22 @@ paths:
       responses:
         '200':
           description: Kõik läks hästi
-          
+  /meta:
+    get:
+      description: Tagastab metainfo andmestiku kohta
+      responses:
+        '200':
+           description: Kõik läks hästi
+           schema:
+             type: object
+             properties:
+               uuendatud:
+                 description: Andmete uuendamise kuupäev
+                 type: string
+                 format: date
+               allikas:
+                 description: Viide andmete algallikale
+                 type: string
 definitions:
   faktoid:
     type: object
