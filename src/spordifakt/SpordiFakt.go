@@ -60,17 +60,24 @@ func (fakt *SpordiFakt) Init() {
 	}
 	log.Debug("Done loading EHAK")
 
-	for i, line := range *fakt.ehak {
-		log.Debugf("Loading %d of %d", i, len(*fakt.ehak))
+	StartDispatcher(10)
+	for _, line := range *fakt.ehak {
 		v := strings.Split(line, "\t")
-		d := load(v[0])
-		if len((*d).Alad) > 0{
-			fakt.dta = append(fakt.dta, *d)
-		}
-		if i == 50{
-			break
+		w := WorkRequest{
+			URL: v[0]}
+		WorkQueue <- w
+	}
+
+	for i := 0; i < len(*fakt.ehak); i++ {
+		d := <- ResponseQueue
+		log.Debugf("Got response for %s (%d of %d)\n", d.EHAK.Kood, i, len(*fakt.ehak))
+		if len(d.Alad) > 0{
+			fakt.dta = append(fakt.dta, d)
+			log.Debugf("Added %d facts\n", len(d.Alad))
 		}
 	}
+
+	StopDispatcher()
 	fakt.timestamp = time.Now()
 	rnd = rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
 }

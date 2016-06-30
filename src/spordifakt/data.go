@@ -14,7 +14,7 @@ type HResponse struct{
 }
 
 type Sehak struct{
-	Kood string		`json:"EHAKKood`
+	Kood string		`json:"EHAKKood"`
 	Maakond []string 	`json:"maakond:maakond"`
 	Kov []string		`json:"kov:kov"`
 	Asutus []string		`json:"asustus:asustus"`
