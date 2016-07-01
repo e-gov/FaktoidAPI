@@ -25,7 +25,6 @@ type SpordiFakt struct {
 }
 
 func (fakt *SpordiFakt)GetOne() *faktoid.Faktoid{
-	fmt.Println(len((*fakt).dta))
 	return getFakt(&(*fakt).dta[rnd.Intn(len((*fakt).dta))])
 }
 
