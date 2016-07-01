@@ -1,0 +1,3 @@
+http://kutse.us-west-2.elasticbeanstalk.com/faktoid
+http://ec2-52-40-219-97.us-west-2.compute.amazonaws.com:8090/faktoid
+http://rsvcb.us-west-2.elasticbeanstalk.com/faktoid
