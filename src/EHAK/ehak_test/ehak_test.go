@@ -88,4 +88,17 @@ var _ = Describe("ehak_test", func() {
 
 		})
 	})
+
+	Describe("Estonian grammar", func(){
+		Context("Elative", func(){
+			It("Should return a proper elative in Estonian", func(){
+				Expect(Elative("vald")).To(Equal("vallas"))
+				Expect(Elative("vihula vald")).To(Equal("vihula vallas"))
+				Expect(Elative("küla")).To(Equal("külas"))
+				Expect(Elative("Tallinn")).To(Equal("Tallinnas"))
+				Expect(Elative("alevik")).To(Equal("alevikus"))
+				Expect(Elative("linnaosa")).To(Equal("linnaosas"))
+			})
+		})
+	})
 })

@@ -183,3 +183,25 @@ func makeUnit(v []string) *Unit {
 		Province:     v[8],
 	}
 }
+// Elative returns Estonian elative of a string. Only meant to work in the EHAK context!
+func Elative(input string) string{
+	vowels := "AEIOUÕÄÖÜ"
+	last := strings.ToUpper(string(input[len(input) - 1]))
+	if strings.Contains(vowels, last){
+		return input + "s"
+	}
+
+	if strings.HasSuffix(strings.ToLower(input),"vald"){
+		return strings.Replace(input, "vald", "vallas", 1)
+	}
+
+	if last == "N"{
+		return input + "as"
+	}
+
+	if last == "K"{
+		return input + "us"
+	}
+
+	return input
+}
